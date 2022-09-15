@@ -4,4 +4,8 @@ layout: default
 
 <h1><%= resource.data.title %></h1>
 
+<% if resource.data.last_updated %>
+  <strong>Last updated on:</strong> <%= resource.data.last_updated %>
+<% end %>
+
 <%= yield %>
