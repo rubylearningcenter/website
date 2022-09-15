@@ -1,6 +1,6 @@
-# Bridgetown Website README
+# Ruby Learning Center Website
 
-Welcome to your new Bridgetown website! You can update this README file to provide additional context and setup information for yourself or other contributors.
+The main website and frontpage for the Ruby Learning Center, built using Bridgetown.rb.
 
 ## Table of Contents
 
@@ -26,7 +26,7 @@ Welcome to your new Bridgetown website! You can update this README file to provi
 ## Install
 
 ```sh
-cd bridgetown-site-folder
+cd website
 bundle install && yarn install
 ```
 > Learn more: [Bridgetown Getting Started Documentation](https://www.bridgetownrb.com/docs/).
