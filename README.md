@@ -8,7 +8,6 @@ The main website and frontpage for the Ruby Learning Center, built using Bridget
 - [Install](#install)
 - [Development](#development)
 - [Commands](#commands)
-- [Deployment](#deployment)
 - [Contributing](#contributing)
 
 ## Prerequisites
@@ -16,11 +15,8 @@ The main website and frontpage for the Ruby Learning Center, built using Bridget
 - [GCC](https://gcc.gnu.org/install/)
 - [Make](https://www.gnu.org/software/make/)
 - [Ruby](https://www.ruby-lang.org/en/downloads/)
-  - `>= 2.7`
 - [Bridgetown Gem](https://rubygems.org/gems/bridgetown)
-  - `gem install bridgetown -N`
 - [Node](https://nodejs.org)
-  - `>= 12`
 - [Yarn](https://yarnpkg.com)
 
 ## Install
@@ -51,13 +47,6 @@ bin/bridgetown console
 ```
 
 > Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
-
-## Deployment
-
-You can deploy Bridgetown sites on hosts like Render or Vercel as well as traditional web servers by simply building and copying the output folder to your HTML root.
-
-> Read the [Bridgetown Deployment Documentation](https://www.bridgetownrb.com/docs/deployment) for more information.
-
 ## Contributing
 
 If repo is on GitHub:
