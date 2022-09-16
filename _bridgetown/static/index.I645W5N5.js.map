@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../frontend/javascript/index.js"],
+  "sourcesContent": ["import \"index.scss\"\nimport \"syntax-highlighting.css\"\n\n// Import all JavaScript & CSS files from src/_components\nimport components from \"bridgetownComponents/**/*.{js,jsx,js.rb,css}\"\n\nconsole.info(\"Bridgetown is loaded!\")\n"],
+  "mappings": "MAMA,QAAQ,KAAK,uBAAuB",
+  "names": []
+}

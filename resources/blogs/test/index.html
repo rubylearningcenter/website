@@ -1,0 +1,76 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Test Blog | Ruby Learning Center</title>
+
+<meta name="description" content="The Ruby Learning Center is a welcoming community dedicated to Ruby education, reading, learning, and community." />
+
+<link rel="stylesheet" href="/_bridgetown/static/index.VQYFQC3P.css" />
+<script src="/_bridgetown/static/index.I645W5N5.js" defer></script>
+<script type="module">let lastmod = 0
+function startReloadConnection() {
+  const evtSource = new EventSource("/_bridgetown/live_reload")
+  evtSource.onmessage = event => {
+    if (event.data == "reloaded!") {
+      location.reload()
+    } else {
+      const newmod = Number(event.data)
+      if (lastmod > 0 && newmod > 0 && lastmod < newmod) {
+        location.reload()
+      } else {
+        lastmod = newmod
+      }
+    }
+  }
+  evtSource.onerror = event => {
+    if (evtSource.readyState === 2) {
+      // reconnect with new object
+      evtSource.close()
+      console.warn("Live reload: attempting to reconnect in 3 seconds...")
+
+      setTimeout(() => startReloadConnection(), 3000)
+    }
+  }
+}
+setTimeout(() => {
+  startReloadConnection()
+}, 500)
+</script>
+
+  </head>
+
+  <body class="post ">
+    <header class="siteTitle">
+
+  <h1>The Ruby Learning Center</h1>
+</header>
+
+<nav class="primaryNavigation">
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/code_of_conduct">Rules</a></li>
+    <li><a href="/resources">Resources</a></li>
+  </ul>
+</nav>
+
+
+    <main>
+      <h1>Test Blog</h1>
+
+  <strong>Last updated on:</strong> 2022-09-14
+
+<p>TODO - Testing multiple resource types</p>
+
+
+    </main>
+
+    <footer>
+  Site powered by <a href="https://www.bridgetownrb.com/">BridgeTown.rb</a>
+</footer>
+
+  </body>
+</html>
