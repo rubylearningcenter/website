@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ruby Book List"
-last_updated: 2022-09-14
+last_updated: 2022-09-15
 ---
 
 ## Learning Ruby
@@ -24,6 +24,10 @@ The pickaxe book, written by some of the best in the industry and often mentione
 
 An illustrated guide to Ruby written by yours truly. Currently a work in progress, but aims to teach Ruby to complete beginners using pictures of Lemurs and various programming concepts.
 
+### [Why's (Poignant) Guide to Ruby](http://poignant.guide)
+
+A programming adventure for Ruby beginners illustrated with cartoon foxes. Released in 2004.
+
 ## Intermediate Ruby
 
 You've got the basics, now it's time to refine them a bit and get your references
@@ -31,6 +35,10 @@ You've got the basics, now it's time to refine them a bit and get your reference
 ### [POODR](https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley/dp/0321721330)
 
 Practical Object Oriented Design in Ruby covers how OO should work in Ruby and helps you on your way to leveraging that power.
+
+### [99 Bottles of OOP](https://sandimetz.com/99bottles)
+
+Takes the ideas of POODR and applies them in a practical way to a single problem and explains the trades offs in leveraging the power of OOP.
 
 ### [Design Patterns in Ruby](https://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452)
 
