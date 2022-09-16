@@ -26,7 +26,7 @@ A free online tutorial guiding through the basics of Rails
 
 More advanced books targeted at building your skills in Rails
 
-### [The Rails 4 Way](https://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby/dp/)0321944275
+### [The Rails 4 Way](https://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby/dp/0321944275)
 
 The definitive Rails tome covering concepts in more detail than the introductory books.
 
