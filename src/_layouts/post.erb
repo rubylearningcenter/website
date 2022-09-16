@@ -9,3 +9,14 @@ layout: default
 <% end %>
 
 <%= yield %>
+
+<hr />
+
+<a
+  href='<%=
+    "#{site.data.site_metadata.source}/tree/main/src/#{resource.relative_path}"
+  %>'
+  class="edit-me"
+>
+  ✏️&nbsp;&nbsp;Edit me on GitHub
+</a>
