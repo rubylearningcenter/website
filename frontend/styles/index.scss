@@ -14,6 +14,14 @@ $backgroundShadow: #BD8D46;
   width: 35%;
 }
 
+.about-image {
+  width: 45%;
+}
+
+.left {
+  float: left;
+}
+
 body {
   background: lighten($backgroundMid, 12%);
   color: $primaryShadow;
