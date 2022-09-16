@@ -14,4 +14,4 @@ layout: default
 
 The Ruby Learning Center is a welcoming community dedicated to Ruby education, reading, learning, and community. On this website you will find a collection of references to resources, courses, talks, books, and more.
 
-Consider joining us on our [Discord community](discord.gg/BeUtrFAgDF) or following us on Twitter ([@RubyLearningDev](https://twitter.com/RubyLearningDev)) to keep in touch with what we're up to.
+Consider joining us on our [Discord community](https://discord.gg/BeUtrFAgDF) or following us on Twitter ([@RubyLearningDev](https://twitter.com/RubyLearningDev)) to keep in touch with what we're up to.
