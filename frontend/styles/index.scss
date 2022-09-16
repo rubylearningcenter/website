@@ -15,7 +15,6 @@ $backgroundShadow: #BD8D46;
 }
 
 body {
-  // background: lighten($backgroundMid, 0.5);
   background: lighten($backgroundMid, 12%);
   color: $primaryShadow;
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen",
@@ -39,6 +38,15 @@ body {
 
       font-weight: 800;
       font-size: 3rem;
+
+      a {
+        color: $background;
+        text-decoration: none;
+
+        &:hover {
+          color: lighten($background, 15%);
+        }
+      }
     }
   }
 
