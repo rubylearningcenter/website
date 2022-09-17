@@ -20,34 +20,16 @@ Consider joining us on our <a href="<%= site.metadata.discord_link %>"  target="
 
 # Current Classes
 
-<div class="box-card">
-  <h2>
-    <a href="https://rebuilding-rails.com/" target="_blank">
-      📕 Rebuilding Rails by Noah Gibbs
-    </a>
-  </h2>
+<%=
+  render Shared::BookCard.new(
+    author: "Noah Gibbs",
+    title: "Rebuilding Rails",
+    url: "https://rebuilding-rails.com/",
+    description: "With Rebuilding Rails you'll build a complete Ruby MVC framework from an empty directory. Your framework will be structured like Rails, using the same architecture and the same metaprogramming tricks. You'll learn the magic behind Rails. You'll finish each system and solidify your knowledge with structured exercises. And you'll get the gut-level understanding that only a framework builder has.",
 
-  <br />
+    class_start: "09-18-2022",
+    class_end: "TBD",
 
-  <div class="flex flex-column-mobile">
-    <a href="https://rebuilding-rails.com/" target="_blank">
-      <img
-        src="<%= relative_url '/images/rebuilding_rails_cover.jpeg' %>"
-        alt="Rebuilding Rails cover image"
-        class="left-margin shadow-border"
-      />
-    </a>
-
-    <div>
-      "With Rebuilding Rails you'll build a complete Ruby MVC framework from an empty directory. Your framework will be structured like Rails, using the same architecture and the same metaprogramming tricks. You'll learn the magic behind Rails. You'll finish each system and solidify your knowledge with structured exercises. And you'll get the gut-level understanding that only a framework builder has."
-
-      <br /><br />
-
-      Join our discussion in the #rebuilding-rails channel on <a href="<%= site.metadata.discord_link %>" target="_blank">Discord</a>.
-
-      <br /><br />
-
-      <strong>Class Run: 09-18-2022 to TBD</strong>
-    </div>
-  </div>
-</div>
+    discord_link: site.metadata.discord_link,
+  )
+%>

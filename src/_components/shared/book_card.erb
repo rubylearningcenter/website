@@ -1,0 +1,31 @@
+<div class="box-card">
+  <h2>
+    <a href="<%= @url %>" target="_blank">
+      📕 <%= @title %> by <%= @author %>
+    </a>
+  </h2>
+
+  <br />
+
+  <div class="flex flex-column-mobile">
+    <a href="<%= @url %>" target="_blank">
+      <img
+        src='<%= relative_url "/images/#{underscored_title}_cover.jpeg" %>'
+        alt="<%= @title %> cover image"
+        class="left-margin shadow-border"
+      />
+    </a>
+
+    <div>
+      "<%= @description %>"
+
+      <br /><br />
+
+      Join our discussion in the #<%= discord_channel %> channel on <a href="<%= @discord_link %>" target="_blank">Discord</a>.
+
+      <br /><br />
+
+      <strong>Class Run: <%= @class_start %> to <%= @class_end %></strong>
+    </div>
+  </div>
+</div>
