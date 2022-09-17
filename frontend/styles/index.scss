@@ -43,6 +43,12 @@ $backgroundShadow: #BD8D46;
 
 .flex {
   display: flex;
+  
+  @media (max-width: 500px) {
+    &.flex-column-mobile {
+      flex-direction: column;
+    }
+  }
 }
 
 .box-card {
