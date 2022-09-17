@@ -44,7 +44,7 @@ $backgroundShadow: #BD8D46;
 .flex {
   display: flex;
   
-  @media (max-width: 500px) {
+  @media (max-width: 700px) {
     &.flex-column-mobile {
       flex-direction: column;
     }
