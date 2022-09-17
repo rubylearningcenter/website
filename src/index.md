@@ -29,7 +29,7 @@ Consider joining us on our <a href="<%= site.metadata.discord_link %>"  target="
 
   <br />
 
-  <div class="flex">
+  <div class="flex flex-column-mobile">
     <a href="https://rebuilding-rails.com/" target="_blank">
       <img
         src="<%= relative_url '/images/rebuilding_rails_cover.jpeg' %>"
