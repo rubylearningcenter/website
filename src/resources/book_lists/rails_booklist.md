@@ -6,25 +6,27 @@ last_updated: 2022-09-15
 
 A list of Rails books and their applications. Free books are tagged with **(F)**
 
-Have a suggestion? Leave a comment. There are still books I need to read on the subject so some may not show up in this list yet.
-
 ## Learning Rails
 
 Your first steps into Rails
 
-### [Rails 4 in Action](https://www.amazon.com/Rails-Action-Revised/dp/1617291099)
+### [ActiveRails](https://leanpub.com/rails)
 
-The definitive introductory text to Rails walking through everything from first steps to authentication systems
+The definitive introductory text to Rails walking through everything from first steps to authentication systems based on the former Rails in Action series
 
 ### [The Rails Tutorial (F)](https://www.railstutorial.org/)
 
 A free online tutorial guiding through the basics of Rails
 
+### [Agile Web Development with Rails 7](https://pragprog.com/titles/rails7/agile-web-development-with-rails-7/)
+
+Introduces Ruby, and goes all the way through building a store system in great detail. Good for going from zero knowledge to a functional application.
+
 ## Advanced Rails
 
 More advanced books targeted at building your skills in Rails
 
-### [The Rails 4 Way](https://www.amazon.com/Rails-Way-Addison-Wesley-Professional-Ruby/dp/0321944275)
+### [The Rails 7 Way](https://leanpub.com/therails7way)
 
 The definitive Rails tome covering concepts in more detail than the introductory books.
 
@@ -32,10 +34,14 @@ The definitive Rails tome covering concepts in more detail than the introductory
 
 Add multi-tenancy features to an existing application.
 
+### [Modern Front-End Development for Rails](https://pragprog.com/titles/nrclient2/modern-front-end-development-for-rails-second-edition/)
+
+Covering more modern Rails-based frontend technologies like Hotwire, Stimulus, and Turbo. Includes content on React and some other Javascript libraries as well.
+
 ## Testing
 
 Books covering testing rails
 
-### [Rails 4 Test Prescriptions](https://pragprog.com/book/nrtest2/rails-4-test-prescriptions)
+### [Rails 5 Test Prescriptions](https://pragprog.com/titles/nrtest3/rails-5-test-prescriptions/)
 
-Walk through the basics of Rails testing for various parts of the framework with best practices.
+Walk through the basics of Rails testing for various parts of the framework with best practices. While this is a bit out of date most Rails 5 tech should work in Rails 7.
