@@ -44,6 +44,10 @@ Consider joining us on our <a href="<%= site.metadata.discord_link %>"  target="
       <br /><br />
 
       Join our discussion in the #rebuilding-rails channel on <a href="<%= site.metadata.discord_link %>" target="_blank">Discord</a>.
+
+      <br /><br />
+
+      <strong>Class Run: 09-18-2022 to TBD</strong>
     </div>
   </div>
 </div>
