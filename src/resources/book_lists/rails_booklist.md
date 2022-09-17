@@ -1,9 +1,7 @@
 ---
 layout: post
 title:  "Rails Book List"
-date:   2022-09-14 21:13:43 -0700
-group_title: Book Lists
-categories: book_list
+last_updated: 2022-09-15
 ---
 
 A list of Rails books and their applications. Free books are tagged with **(F)**
