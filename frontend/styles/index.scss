@@ -43,7 +43,7 @@ $backgroundShadow: #BD8D46;
 
 .flex {
   display: flex;
-  
+
   @media (max-width: 700px) {
     &.flex-column-mobile {
       flex-direction: column;
@@ -72,6 +72,31 @@ $backgroundShadow: #BD8D46;
 
   p {
     display: inline;
+  }
+}
+
+.social-list {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline;
+
+    margin: 0 5px;
+    padding: 0 10px;
+    border-right: 2px dotted $primaryShadow;
+
+    a {
+      text-decoration: none;
+    }
+
+    &:first-child {
+      margin-left: 0;
+    }
+
+    &:last-of-type {
+      border: none;
+    }
   }
 }
 

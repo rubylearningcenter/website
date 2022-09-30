@@ -1,6 +1,14 @@
 class Shared::BookCard < Bridgetown::Component
   def initialize(
-    author:, title:, description:, url:, class_start:, discord_link:, class_end: 'TBD'
+    author:,
+    title:,
+    description:,
+    url:,
+    class_start:,
+    discord_link:,
+    youtube_playlist_link:,
+    twitch_link:,
+    class_end: 'TBD'
   )
     @author = author
     @title = title
@@ -11,6 +19,8 @@ class Shared::BookCard < Bridgetown::Component
     @class_end = class_end
 
     @discord_link = discord_link
+    @youtube_playlist_link = youtube_playlist_link
+    @twitch_link = twitch_link
   end
 
   def underscored_title

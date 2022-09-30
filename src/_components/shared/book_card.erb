@@ -3,6 +3,8 @@
     <a href="<%= @url %>" target="_blank">
       📕 <%= @title %> by <%= @author %>
     </a>
+
+
   </h2>
 
   <br />
@@ -21,11 +23,36 @@
 
       <br /><br />
 
-      Join our discussion in the #<%= discord_channel %> channel on <a href="<%= @discord_link %>" target="_blank">Discord</a>.
-
-      <br /><br />
-
       <strong>Class Run: <%= @class_start %> to <%= @class_end %></strong>
+
+
+      <hr />
+
+      <ul class="social-list">
+        <% if @twitch_link %>
+          <li>
+            <a href="<%= @twitch_link %>">
+              <i class="fa-brands fa-twitch"></i> Livestream
+            </a>
+          </li>
+        <% end %>
+
+        <% if @youtube_playlist_link %>
+          <li>
+            <a href="<%= @youtube_playlist_link %>">
+              <i class="fa-brands fa-youtube"></i> Playlist
+            </a>
+          </li>
+        <% end %>
+
+        <% if discord_channel %>
+          <li>
+            <a href="<%= @discord_link %>">
+              <i class="fa-brands fa-discord"></i> #<%= discord_channel %>
+            </a>
+          </li>
+        <% end %>
+      </ul>
     </div>
   </div>
 </div>
