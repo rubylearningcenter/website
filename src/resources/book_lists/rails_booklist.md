@@ -38,6 +38,10 @@ Add multi-tenancy features to an existing application.
 
 Covering more modern Rails-based frontend technologies like Hotwire, Stimulus, and Turbo. Includes content on React and some other Javascript libraries as well.
 
+### [The Complete Guide to Rails Performance](https://www.railsspeed.com/)
+
+Walks you through numerous ways to monitor and improve the performance of your Rails applications.
+
 ## Testing
 
 Books covering testing rails
