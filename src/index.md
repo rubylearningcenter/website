@@ -32,7 +32,7 @@ Consider joining us on our <a href="<%= site.metadata.discord_link %>" target="_
     description: "With Rebuilding Rails you'll build a complete Ruby MVC framework from an empty directory. Your framework will be structured like Rails, using the same architecture and the same metaprogramming tricks. You'll learn the magic behind Rails. You'll finish each system and solidify your knowledge with structured exercises. And you'll get the gut-level understanding that only a framework builder has.",
 
     class_start: "09-18-2022",
-    class_end: "TBD",
+    class_end: "11-27-2022",
 
     discord_link: site.metadata.discord_link,
     youtube_playlist_link: "https://www.youtube.com/playlist?list=PLVZsKIDxtES0hOZCyhGVoTcRCsUnAl0JI",
