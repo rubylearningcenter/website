@@ -8,7 +8,8 @@ class Shared::BookCard < Bridgetown::Component
     discord_link:,
     youtube_playlist_link:,
     twitch_link:,
-    class_end: 'TBD'
+    class_end: 'TBD',
+    cover_image: nil
   )
     @author = author
     @title = title
@@ -21,6 +22,12 @@ class Shared::BookCard < Bridgetown::Component
     @discord_link = discord_link
     @youtube_playlist_link = youtube_playlist_link
     @twitch_link = twitch_link
+
+    @cover_image = cover_image
+  end
+
+  def cover_image
+    @cover_image || "#{underscored_title}_cover.jpeg"
   end
 
   def underscored_title

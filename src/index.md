@@ -22,7 +22,44 @@ Consider joining us on our <a href="<%= site.metadata.discord_link %>" target="_
 
 <hr />
 
+
 # Current Classes
+
+<%=
+  render Shared::BookCard.new(
+    author: "Nate Berkopec",
+    title: "The Complete Guide to Rails Performance",
+    url: "https://www.railsspeed.com/",
+    description: "Learn how to transform your snail-paced Rails app into a sub-100 millisecond powerhouse.
+
+    The Complete Guide to Rails Performance is a full-stack course that gives you the tools to make your Ruby on Rails applications faster and more delightful for users, scale better and for less money, and take less effort to maintain.",
+
+    class_start: "01-08-2023",
+    class_end: "TBD",
+
+    discord_link: site.metadata.discord_link,
+    youtube_playlist_link: "https://youtube.com/@rubylearningcenter",
+    twitch_link: site.metadata.twitch_link
+  )
+%>
+
+<%=
+  render Shared::BookCard.new(
+    author: "Myron Marston and Erin Dees",
+    title: "Effective Testing with RSpec 3",
+    url: "https://pragprog.com/titles/rspec3/effective-testing-with-rspec-3/",
+    description: "Solve your testing problems by building and maintaining quality software with RSpec—the popular BDD-flavored Ruby testing framework. This definitive guide from RSpec’s lead developer shows you how to use RSpec to drive more maintainable designs, specify and document expected behavior, and prevent regressions during refactoring. Build a project using RSpec to design, describe, and test the behavior of your code. Whether you’re new to automated tests or have been using them for years, this book will help you write more effective tests.",
+
+    class_start: "01-08-2023",
+    class_end: "TBD",
+
+    discord_link: site.metadata.discord_link,
+    youtube_playlist_link: "https://youtube.com/@rubylearningcenter",
+    twitch_link: site.metadata.twitch_link
+  )
+%>
+
+# Previous Classes
 
 <%=
   render Shared::BookCard.new(
