@@ -38,7 +38,7 @@ Consider joining us on our <a href="<%= site.metadata.discord_link %>" target="_
     class_end: "TBD",
 
     discord_link: site.metadata.discord_link,
-    youtube_playlist_link: "https://youtube.com/@rubylearningcenter",
+    youtube_playlist_link: "https://www.youtube.com/playlist?list=PLVZsKIDxtES3JW-4mwwb6sNgYTdOL1hrp",
     twitch_link: site.metadata.twitch_link
   )
 %>
@@ -54,7 +54,7 @@ Consider joining us on our <a href="<%= site.metadata.discord_link %>" target="_
     class_end: "TBD",
 
     discord_link: site.metadata.discord_link,
-    youtube_playlist_link: "https://youtube.com/@rubylearningcenter",
+    youtube_playlist_link: "https://www.youtube.com/playlist?list=PLVZsKIDxtES1DG1rcKoEEs3ttVjqga-FL",
     twitch_link: site.metadata.twitch_link
   )
 %>
